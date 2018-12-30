@@ -1,0 +1,52 @@
+{
+  "name": "suggested-stories",
+  "version": "1.0.0",
+  "description": "widget",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "pack": "webpack --config webpack.config.js --watch",
+    "babel": "babel src -d views",
+    "build": "npm run pack && npm run babel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oshry/Suggested-Stories.git"
+  },
+  "keywords": [],
+  "author": "Oshry Levy",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-device": "^0.4.2",
+    "mobile-detect": "^1.4.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-slick": "^0.23.2",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.4.3",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.1.0",
+    "exports-loader": "^0.7.0",
+    "file-loader": "^3.0.1",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "bugs": {
+    "url": "https://github.com/oshry/Suggested-Stories/issues"
+  },
+  "homepage": "https://github.com/oshry/Suggested-Stories#readme"
+}
